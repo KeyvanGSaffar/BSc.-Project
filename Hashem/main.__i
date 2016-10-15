@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I "F:\Program Files\Keil\ARM" -I "F:\Program Files\Keil\ARM\Boards\Atmel" -IC:\Users\SC\Desktop -I "F:\Program Files\Keil\ARM\RV31\Inc" -I "F:\Program Files\Keil\ARM\CMSIS\Include" -I "F:\Program Files\Keil\ARM\Inc\Atmel\SAM7X" -o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"

@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\Obj\Http_demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\http_demo.o"'
+### List of Objects: adding '".\obj\http_cgi.o"'
+### List of Objects: adding '".\obj\web.o"'
+### List of Objects: adding '".\obj\net_config.o"'
+### List of Objects: adding '".\obj\sam7.o"'
+### List of Objects: adding '"C:\Keil\ARM\RV31\LIB\TCP_ARM_L.lib"'
+### List of Objects: adding '".\obj\emac_sam7x.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\obj\http_demo.o" ".\obj\http_cgi.o" ".\obj\web.o" ".\obj\net_config.o" ".\obj\sam7.o" C:\Keil\ARM\RV31\LIB\TCP_ARM_L.lib ".\obj\emac_sam7x.o" --library_type=microlib --strict --scatter ".\Obj\Http_demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Http_demo.map" -o ".\Obj\Http_demo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Http_demo.axf'
+### ADS-LD Command File: '.\Obj\Http_demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Http_demo.lnp', Handle=0x000001E8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Http_demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

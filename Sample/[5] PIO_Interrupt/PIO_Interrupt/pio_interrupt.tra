@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'pio_interrupt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "pio_interrupt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pio_interrupt.map" -o "pio_interrupt.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'pio_interrupt.axf'
+### ADS-LD Command File: 'pio_interrupt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'pio_interrupt.lnp', Handle=0x00000404
+### Writing '.lnp' file
+### ADS-LD Command file 'pio_interrupt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

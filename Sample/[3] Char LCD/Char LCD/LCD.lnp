@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "LCD.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LCD.map" -o "LCD.axf"

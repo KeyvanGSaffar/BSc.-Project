@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\Obj\Mouse.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\sam7.o"'
+### List of Objects: adding '".\obj\usbcore.o"'
+### List of Objects: adding '".\obj\usbdesc.o"'
+### List of Objects: adding '".\obj\usbuser.o"'
+### List of Objects: adding '".\obj\hiduser.o"'
+### List of Objects: adding '".\obj\mouse.o"'
+### List of Objects: adding '".\obj\usbhw_sam7x.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\obj\sam7.o" ".\obj\usbcore.o" ".\obj\usbdesc.o" ".\obj\usbuser.o" ".\obj\hiduser.o" ".\obj\mouse.o" ".\obj\usbhw_sam7x.o" --library_type=microlib --strict --scatter ".\Obj\Mouse.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Mouse.map" -o ".\Obj\Mouse.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Mouse.axf'
+### ADS-LD Command File: '.\Obj\Mouse.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Mouse.lnp', Handle=0x000001A8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Mouse.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

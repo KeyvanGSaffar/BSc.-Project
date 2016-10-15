@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'rtt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "rtt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rtt.map" -o "rtt.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'rtt.axf'
+### ADS-LD Command File: 'rtt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'rtt.lnp', Handle=0x000002E8
+### Writing '.lnp' file
+### ADS-LD Command file 'rtt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

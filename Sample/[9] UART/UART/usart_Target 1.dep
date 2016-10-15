@@ -1,0 +1,8 @@
+Dependencies for Project 'usart', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x4E78DE04)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X --list "SAM7.lst" --xref -o "SAM7.o" --depend "SAM7.d")
+F (.\main.c)(0x50CD90D8)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H)(0x4F59186C)
+I (delay.h)(0x50AC1BF8)
+I (usart.h)(0x50C0F71C)
+I (C:\Keil\\ARM\RV31\Inc\stdio.h)(0x4F59167C)
+I (lcd.h)(0x50C0D80C)

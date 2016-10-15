@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\ZiBiL.ZIBIL-226AD9074\Desktop\AT91SAM7X256 Dev Board sample Rev.A\[13] TFTLCD touch\TFTLCD touch\TFTLCD touch.uvproj
+Project File Date:  01/06/2013
+
+<h2>Output:</h2>
+Build target 'AT91SAM7X256'
+compiling main.c...
+linking...
+Program Size: Code=6512 RO-data=1584 RW-data=36 ZI-data=1276  
+FromELF: creating hex file...
+"TFTLCD touch.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Documents and Settings\\ZiBiL.ZIBIL-226AD9074\\Desktop\\AT91SAM7X256 Dev Board sample Rev.A\\[13] TFTLCD touch\\TFTLCD touch\\TFTLCD touch.AXF" 
+ProjectFile = C:\Documents and Settings\ZiBiL.ZIBIL-226AD9074\Desktop\AT91SAM7X256 Dev Board sample Rev.A\[13] TFTLCD touch\TFTLCD touch\JLinkArm_AT91SAM7X256.ini
+Device = AT91SAM7X256
+Info: Device "AT91SAM7X256" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.300V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: RTCK reaction time is approx. 126ns
+Info: Auto JTAG speed: Adaptive
+***JLink Warning: RESET (pin 15) high, but should be low. Please check target hardware.
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x00200004 after reset.
+DLL version V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Sep 20 2012 13:27:01
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x3F0F0F0F
+ARM7 identified.
+Using adaptive clocking instead of fixed JTAG speed.
+Info: TotalIRLen = 4, IRPrint = 0x01
+***JLink Warning: RESET (pin 15) high, but should be low. Please check target hardware.
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x00200004 after reset.
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+***JLink Warning: RESET (pin 15) high, but should be low. Please check target hardware.
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x00200004 after reset.
+JTAG speed: 1000 kHz
+Application running ...

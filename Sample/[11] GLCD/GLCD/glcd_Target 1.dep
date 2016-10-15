@@ -1,0 +1,2 @@
+Dependencies for Project 'glcd', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x4F5916C6)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X --list "SAM7.lst" --xref -o "SAM7.o" --depend "SAM7.d")

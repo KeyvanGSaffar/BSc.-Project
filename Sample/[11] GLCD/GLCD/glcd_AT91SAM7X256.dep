@@ -1,0 +1,6 @@
+Dependencies for Project 'glcd', Target 'AT91SAM7X256': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x4F5916C6)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X --list "SAM7.lst" --xref -o "SAM7.o" --depend "SAM7.d")
+F (.\main.c)(0x50E9C3AB)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.h)(0x4F59186C)
+I (pic.h)(0x50C0DB40)
+I (ks0108.h)(0x50C0DC90)

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Key&LED.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "Key&LED.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Key&LED.map" -o "Key&LED.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Key&LED.axf'
+### ADS-LD Command File: 'Key&LED.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Key&LED.lnp', Handle=0x00000304
+### Writing '.lnp' file
+### ADS-LD Command file 'Key&LED.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

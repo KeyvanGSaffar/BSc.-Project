@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "pio_interrupt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pio_interrupt.map" -o "pio_interrupt.axf"

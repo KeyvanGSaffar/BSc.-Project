@@ -1,0 +1,17 @@
+	ECA Example Project for AT91SAM7x256 Header Board
+
+	Project : Test Uart : show recieved characters on Characteri LCD 
+		
+		LCD.RS = PA0
+		LCD.EN = PA1
+
+		LCD.DB4 = PA4
+		LCD.DB5 = PA5
+		LCD.DB6 = PA6
+		LCD.DB7 = PA7
+	
+		Header Used :
+			lib_AT91SAM7X256.h 	9/12/05
+			delay.h 			1.0 
+			lcd.h 				1.0	
+			usart.h				1.0		 

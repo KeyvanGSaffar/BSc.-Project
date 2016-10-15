@@ -1,0 +1,6 @@
+Dependencies for Project 'exti', Target 'AT91SAM7X256': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x4F588A26)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X --list "SAM7.lst" --xref -o "SAM7.o" --depend "SAM7.d")
+F (.\main.c)(0x50EC219E)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\\ARM\RV31\Inc -I C:\Keil\\ARM\CMSIS\Include -I C:\Keil\\ARM\Inc\Atmel\SAM7X -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.h)(0x4F5868A4)
+I (AIC.h)(0x50AC8622)
+I (delay.h)(0x50AB7A42)

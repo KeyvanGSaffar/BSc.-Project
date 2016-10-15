@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'exti.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "exti.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\exti.map" -o "exti.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'exti.axf'
+### ADS-LD Command File: 'exti.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'exti.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'exti.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

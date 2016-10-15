@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "Key&LED.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Key&LED.map" -o "Key&LED.axf"

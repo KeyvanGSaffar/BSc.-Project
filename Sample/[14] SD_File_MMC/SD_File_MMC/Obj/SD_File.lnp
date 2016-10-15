@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\obj\getline.o" ".\obj\sd_file.o" ".\obj\sam7.o" ".\obj\file_config.o" ".\obj\spi_sam7x.o" ".\obj\serial.o" ".\obj\retarget.o" C:\Keil\ARM\RV31\LIB\FS_ARM_L.lib --strict --scatter ".\Obj\SD_File.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\SD_File.map" -o ".\Obj\SD_File.axf"

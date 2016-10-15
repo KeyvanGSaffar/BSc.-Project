@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'usart.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "usart.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\usart.map" -o "usart.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'usart.axf'
+### ADS-LD Command File: 'usart.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'usart.lnp', Handle=0x00000464
+### Writing '.lnp' file
+### ADS-LD Command file 'usart.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

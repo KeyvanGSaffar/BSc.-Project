@@ -1,0 +1,1 @@
+ --thumb -c --cpu ARM7TDMI -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I..\..\..\..\AT91SAM7X-EK --diag_suppress 61 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Atmel\SAM7X -o ".\Obj\emac_sam7x.o" --omf_browse ".\Obj\emac_sam7x.crf" --depend ".\Obj\emac_sam7x.d" "..\Library\EMAC_SAM7X.c"

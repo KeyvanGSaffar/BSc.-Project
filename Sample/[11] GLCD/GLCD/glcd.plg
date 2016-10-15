@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\sam7x Evaluation board sample\GLCD\glcd.uvproj
+Project File Date:  11/21/2012
+
+<h2>Output:</h2>
+Rebuild target 'AT91SAM7X256'
+assembling SAM7.s...
+compiling main.c...
+linking...
+Program Size: Code=3932 RO-data=516 RW-data=1028 ZI-data=1260  
+FromELF: creating hex file...
+"glcd.axf" - 0 Error(s), 0 Warning(s).

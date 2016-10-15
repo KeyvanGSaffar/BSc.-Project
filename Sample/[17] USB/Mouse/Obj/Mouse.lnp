@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\obj\sam7.o" ".\obj\usbcore.o" ".\obj\usbdesc.o" ".\obj\usbuser.o" ".\obj\hiduser.o" ".\obj\mouse.o" ".\obj\usbhw_sam7x.o" --library_type=microlib --strict --scatter ".\Obj\Mouse.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Mouse.map" -o ".\Obj\Mouse.axf"

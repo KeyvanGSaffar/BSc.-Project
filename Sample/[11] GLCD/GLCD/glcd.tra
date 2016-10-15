@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'glcd.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" --strict --scatter "glcd.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\glcd.map" -o "glcd.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'glcd.axf'
+### ADS-LD Command File: 'glcd.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'glcd.lnp', Handle=0x000002EC
+### Writing '.lnp' file
+### ADS-LD Command file 'glcd.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

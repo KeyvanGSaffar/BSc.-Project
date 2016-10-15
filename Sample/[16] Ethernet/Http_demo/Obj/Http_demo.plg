@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\Educational\BSC Project\Sample\[16] Ethernet\Http_demo\Http_demo.uvproj
+Project File Date:  01/05/2013
+
+<h2>Output:</h2>
+Rebuild target 'AT91SAM7X'
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.32
+Completed 16 File(s), Ratio 90%
+compiling HTTP_demo.c...
+compiling HTTP_CGI.c...
+compiling WEB.C...
+compiling Net_Config.c...
+assembling SAM7.s...
+compiling EMAC_SAM7X.c...
+linking...
+.\Obj\Http_demo.axf: Error: L6218E: Undefined symbol http_EnAuth (referred from http_cgi.o).
+.\Obj\Http_demo.axf: Error: L6218E: Undefined symbol http_auth_passw (referred from http_cgi.o).
+.\Obj\Http_demo.axf: Error: L6218E: Undefined symbol tcp_NumSocks (referred from http_cgi.o).
+.\Obj\Http_demo.axf: Error: L6218E: Undefined symbol tcp_socket (referred from http_cgi.o).
+Target not created

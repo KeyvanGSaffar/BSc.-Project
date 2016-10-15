@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<style type="text/css">
+
+body{
+		background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+		background-color:#282828;
+		background-size:16px 16px;
+	}
+.container{
+	width: 75%;
+}
+li{
+	margin-left: -20px;
+	margin-right: -60px;
+	padding-right: 10px;
+	font-family: b nazanin;
+	font-size: 15px;
+}
+.active{
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	background-color: #0088cc;
+	line-height: 45px;
+	padding-right: -10px;
+ 	
+}
+.nav-header{
+	font-size: 20px;
+	color: #0088cc;
+	padding-bottom: 25px;
+	padding-right: 20px;
+	font-family: B Titr Bold;
+}
+.mainContainer{
+	width: 75%;
+ 	opacity: 0.8;	
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    height: 100%;
+    text-align: center;
+	margin: auto;
+	padding-top:50px; 
+	font-family: b nazanin;
+	font-size: 15px;
+
+}
+.mainContainer:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+</style>
+</head>
+<body>
+	<div class="header navbar navbar-inverse navbar-fixed-top "  role="navigation">
+	    <div class="container">
+			<div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand label-success" style="color:#fff;font-size: 10pt;font-weight: bold;direction:rtl;padding-bottom:40px;" href="#">
+	          	توسعه وب سرور بر روی Embedded System مبتنی بر پردازنده ARM
+	          </a>
+	        </div>
+	        <div class="">
+	          	<div class="navbar-brand navbar-right navbar-collapse collapse" style="color:#fff;font-size: 12pt;font-weight: bold;min-width:500px;" >
+					سید فرشاد کاظمی و کیوان قارونی صفار
+	         	 </div>
+        	</div><!--/.navbar-collapse -->
+        </div>
+	</div>
+    <div class="fade mainContainer delay15">
+	    <div class="col-md-3 pull-right" style="padding-top:10px;text-align:right;direction:rtl;">
+	      <div class="well sidebar-nav">
+	        <ul class="nav nav-list">
+	          <li class="nav-header">صفحات پروژه</li>
+	          <li  class="active" >صفحه اصلی</li>
+	          <li><a href="leds.cgi">مدیریت LED</a></li>
+	          <li ><a href="network.cgi">تنظمیات شبکه</a></li>
+	          <li><a href="system.cgi">رمز عبور</a></li>
+	          <li><a href="tcp.cgi">وضعیت پورتها</a></li>
+	          <li><a href="language.cgi">زبان</a></li>
+	          <li><a href="buttons.cgi">وضعیت سوئیچ ها	</a></li>              
+	          <li><a href="lcd.cgi">نمایش روی LCD</a></li>
+	          <li><a href="temp.cgi">مشاهده دما</a></li>              
+
+	        </ul>
+	      </div><!--/.well -->
+	    </div><!--/span-->
+	    <div class="col-md-9 pull-left well" style="margin-top:10px;text-align:right;direction:rtl;">
+	    	<h3>هدف پروژه </h3>
+			در این پروژه هدف ما راه اندازی یک وب سرور بر روی یک embeded سیستم مبتنی بر پردازنده ARM بود.
+			<br />
+			<br />
+			<p class="well" style="text-align:center;"><img src="logo.png"/><br />این پروژه توسط سید فرشاد کاظمی و کیوان قارونی صفار در دانشگاه فردوسی مشهد - دانشکده مهندسی زیر نظر استاد گرانقدر دکتر حمید نوری با مشاوره مهندس هاشم قربان پناه انجام گرفته است.
+			</p>
+		</div>
+    </div>
+</body>
+</html>

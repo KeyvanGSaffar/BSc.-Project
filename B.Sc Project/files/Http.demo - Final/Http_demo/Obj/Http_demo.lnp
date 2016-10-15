@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\obj\http_demo.o" ".\obj\http_cgi.o" ".\obj\web.o" ".\obj\net_config.o" ".\obj\sam7.o" C:\Keil\ARM\RV31\LIB\TCP_ARM_L.lib ".\obj\emac_sam7x.o" --library_type=microlib --strict --scatter ".\Obj\Http_demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Http_demo.map" -o ".\Obj\Http_demo.axf"

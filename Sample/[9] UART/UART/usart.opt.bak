@@ -1,0 +1,39 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source Group 1),0,0,0
+
+OPTFFF 1,1,2,0,0,0,0,0,<.\SAM7.s><SAM7.s> 
+
+ExtF <C:\Users\Soran\Desktop\AT91SAM7x256\Keil\USART\project\main.c> 5,32,0,{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+
+TARGOPT 1, (Target 1)
+ ADSCLK=18432000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 0,0,1
+  OPTAX 255
+  OPTBL 0,(Datasheet)<DATASHTS\ATMEL\AT91SAM7X128_256_PC.PDF>
+  OPTBL 1,(Summary)<DATASHTS\ATMEL\AT91SAM7X128_256_PS.PDF>
+  OPTDL (SARM.DLL)(-cAT91SAM7X)(DARMATS.DLL)(-p91SAM7X256)(SARM.DLL)()(TARMATS.DLL)(-p91SAM7X256)
+  OPTDBG 48125,0,()()()()()()()()()() ()()()()
+  OPTKEY 0,(UL2ARM)(-U56240812 -O15 -S0 -C0 -FO7 -FD200000 -FC800 -FN1 -FF0AT91SAM7_256 -FS0100000 -FL040000))
+  OPTDF 0xC0000002
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
